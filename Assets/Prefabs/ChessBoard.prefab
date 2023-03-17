@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2384364858665289950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2384364858665289944}
+  - component: {fileID: 2384364858665289951}
+  m_Layer: 0
+  m_Name: ChessBoard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2384364858665289944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384364858665289950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2384364858665289951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384364858665289950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed59d306a3753f9448c9f676e1f0770e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  squareSpace: {fileID: 3066873771339745804, guid: c5d8acf4a1fe8cb46a6c8e2e8bdf42d2, type: 3}
+  lightSquareColor: {r: 0.57938766, g: 0.6863021, b: 0.7924528, a: 1}
+  darkSquareColor: {r: 0.2995283, g: 0.39976415, b: 0.5, a: 1}
+  whiteKing: {fileID: 8064775713152842160, guid: a5b9afee51e63594498fc160946c8774, type: 3}
+  whiteQueen: {fileID: 5729504617065588472, guid: 676961b1de9e90548bf83422b22ac8da, type: 3}
+  whiteRook: {fileID: 6759229713267001270, guid: 8c2584dea970809499114ead3ea0cd03, type: 3}
+  whiteBishop: {fileID: 5437471595321860792, guid: 2edcbbe3bad3d4b4a8c27e5360b1b83e, type: 3}
+  whiteKnight: {fileID: 28641933316967346, guid: 9ea8b79e7066acf478948fb2a414136d, type: 3}
+  whitePawn: {fileID: 3472296595974689277, guid: c09b08066a3943542bd90915b15272ea, type: 3}
+  blackKing: {fileID: 8907127670858195329, guid: 0603561acf3203441a203419648fd6b2, type: 3}
+  blackQueen: {fileID: 8187913244683123417, guid: 132af3c28ac7a104a8270348395f90a3, type: 3}
+  blackRook: {fileID: 5675095191459593615, guid: 42952ccbdfde5c44485d8eef664e9f79, type: 3}
+  blackBishop: {fileID: 6165882138824810087, guid: 738ff246d33e61644b9d67b5e5715556, type: 3}
+  blackKnight: {fileID: 260293102082817937, guid: 02880a6452067f441a6a1834fe2119b4, type: 3}
+  blackPawn: {fileID: 100077012460032425, guid: b8ee7cce093d50a4890a7d0f0e242def, type: 3}
